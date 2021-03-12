@@ -50,8 +50,8 @@ def my_function(data):
             print(el);
     elif type(data) is dict:
         print("your data is Dictionary")
-        for el in data:
-            print(data[el]);
+        for key in data:
+            print(key," ",data[key]);
 
 print(my_function(skaiciai));
 print(my_function(vaikas));
